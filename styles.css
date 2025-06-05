@@ -1,39 +1,33 @@
 /*  your css code here. If applicable */
 body {
   font-family: Arial, sans-serif;
-  display: flex;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-  background-color: #f0f4f8;
+  padding: 20px;
 }
 
-.container {
+form {
+  max-width: 300px;
   padding: 20px;
-  background-color: #fff;
-  border-radius: 12px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
 }
 
 input {
-  display: block;
   width: 100%;
-  padding: 10px;
-  margin: 10px auto;
-  font-size: 16px;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
 }
 
 button {
   padding: 10px 20px;
-  font-size: 16px;
-  background-color: #0a74da;
+  background-color: royalblue;
   color: white;
   border: none;
-  border-radius: 6px;
+  border-radius: 5px;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #094a9e;
+  background-color: navy;
 }
+
