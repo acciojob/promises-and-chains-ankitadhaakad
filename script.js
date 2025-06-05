@@ -1,5 +1,5 @@
 document.getElementById('votingForm').addEventListener('submit', function (event) {
-  event.preventDefault(); // Prevent form from refreshing the page
+  event.preventDefault(); // Prevent page reload
 
   const name = document.getElementById('name').value.trim();
   const age = document.getElementById('age').value.trim();
@@ -13,7 +13,7 @@ document.getElementById('votingForm').addEventListener('submit', function (event
 
   const checkEligibility = new Promise((resolve, reject) => {
     setTimeout(() => {
-      if (ageNum > 18) {
+      if (ageNum >= 18) {
         resolve();
       } else {
         reject();
