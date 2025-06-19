@@ -1,3 +1,4 @@
+//your JS code here. If required.
 document.getElementById("voteForm").addEventListener("submit", function (e) {
   e.preventDefault(); // prevent form from reloading the page
 
@@ -6,7 +7,7 @@ document.getElementById("voteForm").addEventListener("submit", function (e) {
 
   // Validate input
   if (name === "" || age === "") {
-    alert("Please enter valid details.");
+    alert("Please enter valid details");
     return;
   }
 
